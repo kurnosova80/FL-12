@@ -1,0 +1,112 @@
+/* Task #1 */
+@media print {
+    body {
+        background: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .tm-main-content {
+        padding-top: 0;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    .tm-sidebar {
+        display: none;
+    }
+
+    .tm-section-title {
+        text-transform: uppercase;
+    }
+
+    .tm-team-description-container {
+        max-width: unset;
+    }
+
+    .tm-team-img {
+        display: none;
+    }
+
+    #about {
+        display: none;
+    }
+
+    section.heading h2 {
+        color: lightskyblue;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+
+    section.heading ol {
+        padding: 0;
+        margin: 0;
+    }
+    section.heading li {
+        list-style: none;
+    }
+    section.heading li:nth-child(odd) {
+        text-align: right;
+    }
+    section.heading li:nth-child(even) {
+        text-align: left;
+    }
+
+    section.blocks p:nth-child(3) {
+        letter-spacing: 5px;
+    }
+
+    section.blocks .tm-content-box {
+        display: none;
+    }
+
+    section#ideas .carousel-indicators {
+        display: none;
+    }
+
+    section.tm-content-box {
+        display: none;
+    }
+
+    .padding-medium {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+}
+
+
+/* Task #2 */
+a.tm-nav-item-link:hover {
+    background-color: lightskyblue;
+    color: #fff;
+}
+
+
+/* Task #3 */
+.tm-banner {
+    background: linear-gradient(to right,lightskyblue,burlywood);
+}
+
+.tm-banner-inner {
+    background: #fff;
+}
+
+
+/* Task #4 */
+.tm-banner-text {
+    text-shadow: 1px 2px 1px #333;
+}
+
+
+/* Task #4 */
+
+
+/* Task #5 */
+div.tm-main-content > section:nth-child(2) > .flex-2-col {
+    display: flex;
+}
